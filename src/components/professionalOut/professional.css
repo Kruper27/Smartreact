@@ -1,0 +1,27 @@
+
+.prof_out {
+    height: 326px;
+}
+
+.prof_out .title h2 {
+    width: 815px;
+    margin-left: 553px;
+}
+
+.prof_out .prof_content p {
+    width: 1065px;
+    height: 90px;
+    color: #000000;
+    font-family: Hind, serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-left: 420px;
+    margin-top: 49px;
+    text-indent: 1.5em;
+}
+
+.prof_content p span {
+    font-size: 20px;
+    font-family: 'Hind - Regular', sans-serif;
+}
