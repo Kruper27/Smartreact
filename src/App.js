@@ -1,19 +1,20 @@
-import React, {Component} from 'react';
-import './App.css';
-import Header from "./components/header/header";
-import Leading from "./components/leading/leading";
-import Professional from "./components/professionalOut/professional";
-import Business from "./components/business/business";
+import React from "react";
 
-export default class App extends Component {
-  render() {
-    return (
-        <div className="App">
-            <Header />
-            <Leading />
-            <Professional />
-            <Business />
+import {Switch} from "react-router-dom";
+import {Route} from "react-router-dom";
+import Home from "../src/components/Home";
+import Header from "./components/header/Header";
+import Services from "./components/Services";
+
+
+export default function App() {
+    return(
+        <div>
+            <Header/>
+        <Switch>
+            <Route exact path='/' component={Home}/>
+            <Route path='/services' component={Services}/>
+        </Switch>
         </div>
-    );
-  }
+    )
 }

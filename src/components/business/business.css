@@ -1,38 +1,38 @@
 
-.business {
-    width: 1920px;
-    height: 331px;
-    border: 1px solid #ffffff;
-    background-color: #f2f2f2;
-    position: relative;
-}
+/*.business {*/
+/*    width: 1920px;*/
+/*    height: 331px;*/
+/*    border: 1px solid #ffffff;*/
+/*    background-color: #f2f2f2;*/
+/*    position: relative;*/
+/*}*/
 
-.business_content{
-    position: absolute;
-    width: 1185px;
-    height: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 55px;
-    margin-left: 380px;
-}
+/*.business_content{*/
+/*    position: absolute;*/
+/*    width: 1185px;*/
+/*    height: 25px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-around;*/
+/*    margin-top: 55px;*/
+/*    margin-left: 380px;*/
+/*}*/
 
-.bus_item {
-    display: flex;
-    flex-direction: row;
-    width: 155px;
-    float: left;
-}
+/*.bus_item {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    width: 155px;*/
+/*    float: left;*/
+/*}*/
 
-.bus_item p {
-    /* Style for "Promo Site" */
-    width: 122px;
-    height: 14px;
-    color: #020202;
-    font-size: 18px;
-    font-family: Hind,sans-serif;
-    padding-left: 7px;
-    text-align: left;
-    margin-top: 0;
-}
+/*.bus_item p {*/
+/*    !* Style for "Promo Site" *!*/
+/*    width: 122px;*/
+/*    height: 14px;*/
+/*    color: #020202;*/
+/*    font-size: 18px;*/
+/*    font-family: Hind,sans-serif;*/
+/*    padding-left: 7px;*/
+/*    text-align: left;*/
+/*    margin-top: 0;*/
+/*}*/

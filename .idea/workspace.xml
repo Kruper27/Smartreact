@@ -2,38 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bead54b1-48f1-4b4f-af3f-432195f89504" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favorites.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/settings.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/images/carousel_bgi_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/images/chat_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/images/checked.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/images/right_arrow_copy_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/asserts/images/search_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/business/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/business/business.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/business/business.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/leading/Emblem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/leading/leading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/leading/leading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/professionalOut/professional.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/professionalOut/professional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/stylesForHeader/HeadStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/stylesForHeader/LiStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/stylesForHeader/LinkStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/stylesForHeader/UlStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/BlockStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/ContentStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/ItemsStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/LeadingStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/TitleStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/pBlockStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/business/business.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/business/business.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/business/business.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/business/Business.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/leading/Emblem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/Emblem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/leading/leading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/leading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/leading/leading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/Leading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/professionalOut/professional.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/professionalOut/professional.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/professionalOut/professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/professionalOut/Professional.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +54,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Smart" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,6 +66,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\components\header\stylesForHeader" />
+      <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\components\header" />
       <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\asserts\images" />
       <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\public" />
       <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\images" />
@@ -112,7 +110,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571465327162</updated>
-      <workItem from="1571465328523" duration="18588000" />
+      <workItem from="1571465328523" duration="27492000" />
+      <workItem from="1572080300905" duration="16891000" />
     </task>
     <servers />
   </component>
@@ -124,7 +123,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

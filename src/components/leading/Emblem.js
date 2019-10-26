@@ -1,10 +1,12 @@
 import React from "react";
+import BlockStyles from "./stylesForLeading/BlockStyles";
+import PForBlockStyle from "./stylesForLeading/PForBlockStyle";
 
 export default function Emblem ({emblem}) {
     return(
-        <div className="lead_block">
+        <BlockStyles>
             <img src={emblem.img} alt={emblem.name}/>
-            <p> {emblem.Description} </p>
-        </div>
+            <PForBlockStyle> {emblem.Description} </PForBlockStyle>
+        </BlockStyles>
     )
 }

@@ -1,7 +1,12 @@
 import React, { Component} from 'react'
-import './leading.css'
 import Emblem from "./Emblem";
 import logo from '../../asserts/images/chat_icon.png'
+import LeadingStyle from "./stylesForLeading/LeadingStyle";
+import ContentStyle from "./stylesForLeading/ContentStyle";
+import TitleStyle from "./stylesForLeading/TitleStyle";
+import ItemsStyle from "./stylesForLeading/ItemsStyle";
+
+
 
 export default class Leading extends Component {
 
@@ -13,6 +18,8 @@ export default class Leading extends Component {
         ]
     };
 
+
+
     renderEmblems() {
         return this.state.emblems.map(emblem => {
             return (
@@ -23,23 +30,19 @@ export default class Leading extends Component {
 
     render() {
         return (
-            <div className="lead">
-                <div className="leading">
-                    <div className="leading_content">
-                        <div className="tit">
-                            <h1> <b>Leading Web And Software Development Company </b> </h1>
-                        </div>
-
-                        <div className='lead_items'>
-                            { this.renderEmblems()}
-                        </div>
-
-                        <div className="lead_chat">
-                            <img src={logo} alt=""/>
-                        </div>
+            <LeadingStyle>
+                <ContentStyle>
+                    <TitleStyle>
+                        <h1> <b>Leading Web And Software Development Company </b> </h1>
+                    </TitleStyle>
+                    <ItemsStyle>
+                        { this.renderEmblems()}
+                    </ItemsStyle>
+                    <div className="lead_chat">
+                        <img src={logo} alt=""/>
                     </div>
-                </div>
-            </div>
+                </ContentStyle>
+            </LeadingStyle>
         )
     }
 }
