@@ -17,45 +17,40 @@ export default class Header extends Component{
 
     state = {
         menubar:[
-            {name: "Home", key: 1},
-            {name: "About", key: 2},
-            {name: "Services", key: 3},
-            {name: "Expertise", key: 4},
-            {name: "Blog", key: 5},
-            {name: "Contact", key: 6},
-            {name: <img src={search} alt="" />, key: 7},
-            {name: "Eng" + <img src={arrow} alt=""/>, key: 8}
+            {name: "Home", to:"/", key: 1},
+            {name: "About", to:"/", key: 2},
+            {name: "Services", to:"/services", key: 3},
+            {name: "Expertise", to:"/", key: 4},
+            {name: "Blog", to:"/", key: 5},
+            {name: "Contact", to:"/", key: 6},
+            {name: <img src={search} alt="" />, to:"/", key: 7},
+            {name: "Eng" + <img src={arrow} alt=""/>, to:"/", key: 8}
         ]
     };
 
-    // renderbar(){
-    //     return this.state.menubar.map(item => {
-    //         return (
-    //             <LiStyles><Item item = {item} key={item.key}/></LiStyles>
-    //         )
-    //     })
-    // }
-    //
-    // Item ({item}) {
-    //     return(
-    //         <LinkStyle to="/"> {item.name}</LinkStyle>
-    //     )
-    // }
+    renderBar(){
+        return this.state.menubar.map(item => {
+            return (
+                <LiStyles><LinkStyle to={item.to}> {item.name} </LinkStyle></LiStyles>
+            )
+        })
+    }
+
 
     render(){
         return(
             <HeadStyle>
                 <img src={logo} alt=""/>
                 <UlStyle>
-                    <LiStyles><LinkStyle to="/">Home</LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/" >About</LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/services">Services</LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/">Expertise</LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/">Blog</LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/">Contact</LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/"> <img src={search} alt=""/> </LinkStyle></LiStyles>
-                    <LiStyles><LinkStyle to="/"> Eng <img src={arrow} alt=""/> </LinkStyle></LiStyles>
-                            {/*{this.renderbar()}*/}
+                    {/*<LiStyles><LinkStyle to="/">Home</LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/" >About</LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/services">Services</LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/">Expertise</LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/">Blog</LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/">Contact</LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/"> <img src={search} alt=""/> </LinkStyle></LiStyles>*/}
+                    {/*<LiStyles><LinkStyle to="/"> Eng <img src={arrow} alt=""/> </LinkStyle></LiStyles>*/}
+                    {this.renderBar()}
                 </UlStyle>
             </HeadStyle>
         )

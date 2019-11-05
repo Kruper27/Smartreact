@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bead54b1-48f1-4b4f-af3f-432195f89504" name="Default Changelist" comment="work hard">
-      <change afterPath="$PROJECT_DIR$/src/components/ImportantStyles/Title/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImportantStyles/Title/TitleH2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImportantStyles/Title/TitleP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/ChatIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/ChatIconEmblem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/professionalOut/stylesForProf/ContentP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/professionalOut/stylesForProf/ContentSpan.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/professionalOut/stylesForProf/ProfContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/professionalOut/stylesForProf/ProfOut.js" afterDir="false" />
+    <list default="true" id="bead54b1-48f1-4b4f-af3f-432195f89504" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/asserts/images/Rectangle_816.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/asserts/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bannerHome/Banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bannerHome/stylesForBanner/BannerH2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bannerHome/stylesForBanner/BannerH3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bannerHome/stylesForBanner/BannerLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/bannerHome/stylesForBanner/BannerStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/webDev/stylesForWebDev/WebDevContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/webDev/stylesForWebDev/WebDevItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/webDev/stylesForWebDev/WebDevItemP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/webDev/stylesForWebDev/WebDevelopStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/leading/Leading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/Leading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/leading/leading.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/leading/stylesForLeading/ItemsStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/ItemsStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/leading/stylesForLeading/PForBlockStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/PForBlockStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/leading/stylesForLeading/TitleStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/leading/stylesForLeading/TitleStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/professionalOut/Professional.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/professionalOut/Professional.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/professionalOut/professional.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/business/Business.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/webDev/WebDev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/business/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/webDev/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/business/business.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Smart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/asserts/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,6 +57,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\asserts\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\components\header\stylesForHeader" />
       <recent name="C:\Users\Senior Sanyola\WebstormProjects\smartreact\src\components\header" />
@@ -104,7 +108,7 @@
       <workItem from="1571465328523" duration="27492000" />
       <workItem from="1572080300905" duration="19236000" />
       <workItem from="1572594682342" duration="170000" />
-      <workItem from="1572901170331" duration="3843000" />
+      <workItem from="1572901170331" duration="13885000" />
     </task>
     <task id="LOCAL-00001" summary="work hard">
       <created>1572110838954</created>
@@ -113,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572110838954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="work hard">
+      <created>1572933205286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572933205286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

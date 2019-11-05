@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Leading from "./leading/Leading";
 import Professional from "./professionalOut/Professional";
-import Business from "./business/Business";
+import WebDev from "./webDev/WebDev";
 
 
 export default class Services extends Component {
@@ -10,7 +10,7 @@ export default class Services extends Component {
             <div className="services">
                 <Leading />
                 <Professional />
-                <Business />
+                <WebDev />
             </div>
         );
     }

@@ -1,8 +1,13 @@
 import React, {Component} from 'react'
 import logo from '../../asserts/images/checked.png'
 import Item from "./Item";
+import Title from "../ImportantStyles/Title/Title";
+import TitleH2 from "../ImportantStyles/Title/TitleH2";
+import TitleP from "../ImportantStyles/Title/TitleP";
+import WebDevelopStyle from "./stylesForWebDev/WebDevelopStyle";
+import WebDevContent from "./stylesForWebDev/WebDevContent";
 
-export default class Business extends Component {
+export default class WebDev extends Component {
 
     state ={
         itemsWeb:[
@@ -25,15 +30,15 @@ export default class Business extends Component {
 
     render(){
         return(
-            <div className="business">
-                <div className="title">
-                    <h2><b> Web Development Solutions For Any Business </b></h2>
-                    <p>Develop more that 214 websites of any complexity during 15 years</p>
-                </div>
-                <div className="business_content">
+            <WebDevelopStyle>
+                <Title>
+                    <TitleH2><b> Web Development Solutions For Any Business </b></TitleH2>
+                    <TitleP>Develop more that 214 websites of any complexity during 15 years</TitleP>
+                </Title>
+                <WebDevContent>
                     {this.renderItem()}
-                </div>
-            </div>
+                </WebDevContent>
+            </WebDevelopStyle>
         )
     }
 }

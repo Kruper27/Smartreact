@@ -1,9 +1,12 @@
-import React from "react"
+import React,{Component} from "react"
+import Banner from "./bannerHome/Banner";
 
-export default function Home()  {
-    return(
-        <p>
-            asdasd
-        </p>
-    )
+export default class Services extends Component {
+    render() {
+        return (
+            <div className="home">
+                <Banner/>
+            </div>
+        )
+    }
 }
