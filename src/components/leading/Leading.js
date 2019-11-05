@@ -5,6 +5,9 @@ import LeadingStyle from "./stylesForLeading/LeadingStyle";
 import ContentStyle from "./stylesForLeading/ContentStyle";
 import TitleStyle from "./stylesForLeading/TitleStyle";
 import ItemsStyle from "./stylesForLeading/ItemsStyle";
+import ChatIcon from "./stylesForLeading/ChatIcon";
+import ChatIconEmblem from "./stylesForLeading/ChatIconEmblem";
+import {Link} from "react-router-dom";
 
 
 
@@ -38,9 +41,11 @@ export default class Leading extends Component {
                     <ItemsStyle>
                         { this.renderEmblems()}
                     </ItemsStyle>
-                    <div className="lead_chat">
-                        <img src={logo} alt=""/>
-                    </div>
+                    <ChatIcon>
+                        <ChatIconEmblem>
+                            <Link to="/"><img src={logo} alt=""/> </Link>
+                        </ChatIconEmblem>
+                    </ChatIcon>
                 </ContentStyle>
             </LeadingStyle>
         )
